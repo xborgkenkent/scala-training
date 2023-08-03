@@ -1,0 +1,41 @@
+2023.08.03 15:57:22 INFO  Started: Metals version 1.0.0 in folders '/home/xkenkent/Documents/GitHub/scala-training' for client Visual Studio Code 1.80.1.
+Aug 03, 2023 3:57:22 PM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Aug 03, 2023 3:57:22 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug 03, 2023 3:57:22 PM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:/home/xkenkent/Documents/GitHub/scala-training/.metals/metals (H2 2.1)
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.025s)
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Aug 03, 2023 3:57:23 PM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.037s)
+2023.08.03 15:57:23 INFO  time: initialize in 0.78s
+2023.08.03 15:57:25 WARN  Build server is not auto-connectable.
+2023.08.03 15:57:25 WARN  no build tool detected in workspace '/home/xkenkent/Documents/GitHub/scala-training'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.08.03 15:57:25 WARN  no build target for: /home/xkenkent/Documents/GitHub/scala-training/s-99/build.sbt
+2023.08.03 15:57:37 INFO  no build target found for /home/xkenkent/Documents/GitHub/scala-training/s-99/build.sbt. Using presentation compiler with project's scala-library version: 3.3.0
+2023.08.03 15:57:38 INFO  time: code lens generation in 12s
+2023.08.03 15:59:40 ERROR 2023-08-03 15:59:40 WARN  FS:606 - locking FileBasedConfig[/home/xkenkent/.config/jgit/config] failed after 5 retries
+2023.08.03 15:59:44 INFO  
+2023.08.03 15:59:44 INFO  Template applied in /home/xkenkent/Documents/GitHub/./play-scala-seed
+2023.08.03 15:59:44 INFO  
+2023.08.03 15:59:44 INFO  time: ran 'giter8.Giter8' in 12s
+2023.08.03 15:59:59 INFO  Shutting down server
+2023.08.03 15:59:59 INFO  shutting down Metals
+2023.08.03 15:59:59 INFO  Exiting server
