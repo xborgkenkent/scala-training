@@ -1,0 +1,70 @@
+java.lang.IllegalArgumentException: Comparison method violates its general contract!
+occurred in the presentation compiler.
+
+action parameters:
+offset: 138
+uri: file:///C:/Users/Admin/Documents/GitHub/scala-training/cses/cses/src/main/scala/Main.scala
+text:
+import scala.io.StdIn.readLine
+
+
+object Main{
+  def main(args: Array[String]) = {
+    val x: List[Int] = List(1,2,3,4,5)
+    print(x@@)
+  }
+
+  def triple(x: Int): Int = 3 * x
+
+  def tripleEither(x: Either[String, Int]): Either[String, Int] =
+    x.map(triple)
+
+
+  def sum(f: Int => Int, a: Int, b: Int): Int = {
+  def loop(x: Int, acc: Int): Int =
+    if (x > b) acc
+    else loop(x + 1, acc + f(x))
+  loop(a,0)
+}
+
+
+  def printDig(nums: List[Int]): Unit = {
+    nums.foreach(num => {
+      val x = printBinary(num)
+      println(x)
+    })
+  }
+  def printBinary(num: Int): String = {
+    if (num <= 1) num.toString
+    else printBinary(num / 2) + (num % 2).toString
+  }
+
+  // def weirdAlgo(n: Int): List[Int] = {
+  //   if(n==1) List(1)
+  //   else {
+  //     val f = if(n%2==0) true else false
+  //     if(f) n :: weirdAlgo(n/2)
+  //     else n :: weirdAlgo(n*3+1)
+  //   }
+  // }
+}
+
+
+
+
+
+error stacktrace:
+java.util.TimSort.mergeLo(Unknown Source)
+	java.util.TimSort.mergeAt(Unknown Source)
+	java.util.TimSort.mergeCollapse(Unknown Source)
+	java.util.TimSort.sort(Unknown Source)
+	java.util.Arrays.sort(Unknown Source)
+	scala.collection.SeqOps.sorted(Seq.scala:727)
+	scala.collection.SeqOps.sorted$(Seq.scala:719)
+	scala.collection.immutable.List.scala$collection$immutable$StrictOptimizedSeqOps$$super$sorted(List.scala:79)
+	scala.collection.immutable.StrictOptimizedSeqOps.sorted(StrictOptimizedSeqOps.scala:78)
+	scala.collection.immutable.StrictOptimizedSeqOps.sorted$(StrictOptimizedSeqOps.scala:78)
+	scala.collection.immutable.List.sorted(List.scala:79)
+	scala.meta.internal.pc.completions.Completions.completions(Completions.scala:204)
+	scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:86)
+	scala.meta.internal.pc.ScalaPresentationCompiler.complete$$anonfun$1(ScalaPresentationCompiler.scala:119)

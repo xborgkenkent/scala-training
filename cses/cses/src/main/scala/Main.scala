@@ -3,9 +3,33 @@ import scala.io.StdIn.readLine
 
 object Main{
   def main(args: Array[String]) = {
-    var x: List[Int] = List(2)
-    x = 1 +: x
-    println(s"${x.mkString(" ")}")
+    val x: List[Int] = List(1,2,3,4,5)
+    print(x(1))
+  }
+
+  def triple(x: Int): Int = 3 * x
+
+  def tripleEither(x: Either[String, Int]): Either[String, Int] =
+    x.map(triple)
+
+
+  def sum(f: Int => Int, a: Int, b: Int): Int = {
+  def loop(x: Int, acc: Int): Int =
+    if (x > b) acc
+    else loop(x + 1, acc + f(x))
+  loop(a,0)
+}
+
+
+  def printDig(nums: List[Int]): Unit = {
+    nums.foreach(num => {
+      val x = printBinary(num)
+      println(x)
+    })
+  }
+  def printBinary(num: Int): String = {
+    if (num <= 1) num.toString
+    else printBinary(num / 2) + (num % 2).toString
   }
 
   // def weirdAlgo(n: Int): List[Int] = {
