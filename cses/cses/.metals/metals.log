@@ -101,3 +101,146 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2023.08.04 08:26:11 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
 2023.08.04 08:41:51 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
 2023.08.04 08:42:03 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:44:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:45:13 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:45:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:46:12 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:47:33 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:47:43 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:48:20 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:51:31 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:53:06 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:53:14 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:53:47 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:53:54 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:55:08 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 10:55:28 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\.metals\.reports\metals-full\r_compiler-error_1691117728236
+2023.08.04 10:55:33 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:55:59 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:56:17 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 10:57:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2489
+2023.08.04 10:57:19 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 10:59:01 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:00:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:07:23 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Exception in thread "pool-3-thread-1" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+Exception in thread "pool-3-thread-2" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	... 3 more
+2023.08.04 11:07:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:08:01 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:08:12 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:08:26 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 11:08:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3177
+2023.08.04 11:10:16 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:10:36 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 11:11:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3299
+2023.08.04 11:11:58 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:22:01 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:22:21 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:23:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:23:50 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:24:01 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:25:29 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:25:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:25:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:28:06 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:28:32 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:28:55 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:29:24 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:30:14 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:30:29 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:30:37 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:31:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:32:08 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:32:42 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 11:33:08 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:02:22 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:02:35 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:02:57 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:03:23 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:03:29 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:03:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:04:12 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:04:24 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:04:58 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:06:28 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:07:11 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:07:21 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:07:33 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:08:21 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:09:32 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:10:07 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 12:10:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5932
+2023.08.04 12:10:42 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:10:57 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:11:52 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:12:07 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:12:37 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 12:12:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\.metals\.reports\metals-full\r_compiler-error_1691122360599
+2023.08.04 12:12:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:13:01 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:13:50 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:14:04 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:14:34 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:15:40 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:16:24 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:16:44 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:18:55 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 12:21:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6267
+2023.08.04 12:21:42 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:22:11 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:22:29 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:22:52 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:23:44 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:25:11 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:25:19 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:25:35 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 12:25:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6551
+2023.08.04 12:25:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:26:12 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:26:22 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:45:05 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:45:32 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:45:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:46:03 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:46:26 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 12:46:44 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 13:17:57 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 1:18:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6992
+2023.08.04 13:18:23 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 2:02:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\.metals\.reports\metals-full\r_compiler-error_1691128930087
+Aug 04, 2023 2:02:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7137
+2023.08.04 14:02:12 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 14:02:26 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+Aug 04, 2023 2:02:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\.metals\.reports\metals-full\r_compiler-error_1691128966319
+2023.08.04 14:02:49 WARN  no build target for: C:\Users\Admin\Documents\GitHub\scala-training\cses\cses\src\main\scala\Main.scala
+2023.08.04 15:50:31 INFO  Shutting down server
+2023.08.04 15:50:31 INFO  shutting down Metals
+2023.08.04 15:50:31 INFO  Exiting server
